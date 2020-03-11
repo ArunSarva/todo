@@ -59,6 +59,8 @@ GEM
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     debug_inspector (0.0.3)
+    devise (1.1.rc0)
+      warden (~> 0.10.3)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.12.2)
@@ -152,6 +154,8 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
+    warden (0.10.7)
+      rack (>= 1.0.0)
     web-console (2.3.0)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -166,6 +170,7 @@ DEPENDENCIES
   bootstrap
   byebug
   coffee-rails (~> 4.1.0)
+  devise
   jbuilder (~> 2.0)
   jquery-rails
   mini_racer (~> 0.1.12)
