@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<table align="center" class="table table-borderless table-info todo" >
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> <%= @todo_list.title %></td>
+      <td><%= @todo_list.description %></td>
+      <td>
+       <%= link_to '  Edit', edit_todo_list_path(@todo_list),({:class=>" fa fa-edit",:style =>"font-size:20px"}) %> 
+      </td>
+    </tr>
+  </tbody>
+</table>
+<%= link_to '  back', todo_lists_path,({:class=>"fa fa-arrow-left margin",:style =>"font-size:20px"}) %>

@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+.todo{
+    width: 50%;
+    align-items: center;
+}
+.margin{
+    margin-left:15px;
+}
+.logo{
+    height: 45px;
+    width: 100px;
+}
+.errors{
+	color:red;
+}
+.dashbord{
+
+	background:url(1.jpg);
+	background-size:100%;
+  background-repeat: no-repeat;
+
+}
