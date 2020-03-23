@@ -9,7 +9,7 @@ gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
 # gem 'devise'
 # gem 'sqlite3'
-
+gem 'will_paginate', '> 3.0'
 gem 'sqlite3', '~> 1.3.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
