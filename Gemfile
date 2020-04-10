@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap'
+
+
 # gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
